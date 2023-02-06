@@ -37,6 +37,12 @@ section, footer, header {
 
 /* Navbar and mobile menu */
 
+#mobile-header > #show-nav-button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
 #mobile-navbar {
   display: flex;
   flex-direction: column;
@@ -102,14 +108,16 @@ section, footer, header {
   font-family: "lato", sans-serif;
 }
 
-#mobile-menu > i {
+#mobile-menu > button {
   font-size: 25px;
   align-self: flex-end;
   transition: .3s all;
+  border: none;
+  background: none;
 }
 
-#mobile-menu > i:hover,
-#mobile-menu > i:focus
+#mobile-menu > button:hover,
+#mobile-menu > button:focus
 {
   transform: scale(1.2);
   color: var(--primary-color);

@@ -8,6 +8,7 @@
   <link rel="stylesheet"  href="../css/about.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="text/javascript" src="../js/mobile-menu.js" defer></script>
   <title>Emerging Technologies - About</title>
 </head>
 <body>
@@ -45,9 +46,13 @@
   </header>
   <section id="intro-section">
     <header id="mobile-header">
-      <i class="fa-solid fa-bars" id="mobile-hamburger"></i>
+      <button id="show-nav-button">
+        <i class="fa-solid fa-bars" id="mobile-hamburger"></i>
+      </button>
       <div id="mobile-menu">
-        <i class="fa fa-x"></i>
+        <button id="close-menu-btn">
+          <i class="fa fa-x"></i>
+        </button>
         <nav id="mobile-navbar">
           <div class="logo">
             <a href="../index.html">
@@ -56,7 +61,7 @@
           </div>
           <div id="nav-items">
             <ul>
-              <li><a href="pages/about.html">About</a></li>
+              <li><a href="#">About</a></li>
               <li><a href="#">Program</a></li>
               <li><a href="#">Join</a></li>
               <li><a href="#">Sponsor</a></li>
