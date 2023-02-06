@@ -1,4 +1,9 @@
 
+/* Header */
+#top-nav, #navbar {
+  display: none;
+}
+
 /* Intro section */
 #intro-section {
   padding: 20px;
@@ -77,10 +82,8 @@
   margin: 0;
 }
 
-.program-item > i {
-  width: 50px;
-  font-size: 40px;
-  text-align: center;
+.program-item > img {
+  height: 50px;
 }
 
 .program-item > .program-item-name {
@@ -95,7 +98,7 @@
   flex: 1 1 auto;
 }
 
-#program-outline-section > button {
+#join-program-mobile {
   background-color: var(--primary-color);
   color: white;
   border: none;
@@ -103,6 +106,10 @@
   padding: 20px;
   margin-top: 30px;
   font-size: 20px;
+}
+
+#join-program-desktop {
+  display: none;
 }
 
 
@@ -125,6 +132,12 @@
   display: grid;
   grid-template-columns: 40% auto;
   gap: 20px;
+}
+
+.speaker-description {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-style: italic;
 }
 
 .speaker-image-div {
@@ -224,8 +237,8 @@ footer > .logo {
 }
 
 footer > .logo > img {
-  width: 50px;
-  height: 50px;
+  width: 25px;
+  height: 25px;
   border: 2px solid black;
   border-radius: 50%;
 }
@@ -238,4 +251,198 @@ footer > .logo > p {
 
 footer > p {
   font-size: 12px;
+}
+
+
+
+
+@media (min-width: 768px) {
+  /* Navbar */
+  #top-nav {
+    padding: 5px 10%;
+    display: flex;
+    gap: 15px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    background-color: rgb(82, 82, 82);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+  }
+
+  #top-nav a {
+    text-decoration: none;
+    color: white;
+  }
+
+  #top-nav * {
+    transition: .5s all;
+    cursor: pointer;
+  }
+
+  #top-nav *:hover {
+    color: var(--primary-color);
+  }
+
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    padding: 10px 10%;
+  }
+
+  #navbar > .logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  #navbar > .logo > img {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+  }
+
+  #navbar > .logo > p {
+    line-height: 14px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  #nav-items {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+  }
+
+  #nav-items > ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+  }
+
+  #nav-items a {
+    text-decoration: none;
+    color: var(--black-color);
+    transition: .5s all;
+  }
+
+  #nav-items a:hover {
+    color: var(--primary-color);
+  }
+
+  #nav-items button {
+    border: 4px solid var(--primary-color);
+    background-color: white;
+    outline: none;
+    color: var(--primary-color);
+    padding: 5px 10px;
+    transition: 0.5s all;
+  }
+
+  #nav-items button:hover {
+    background-color: var(--primary-color);
+    color: white;
+  }
+
+  /* Intro section */
+  #intro-section {
+    height: 100vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url("../images/header_bg_desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+  }
+
+  #intro-section > #intro-description {
+    margin: 20px 0;
+    background-color: rgb(229, 226, 226);
+    max-width: 700px;
+  }
+
+  /* Program outline section */
+  #program-outline-section h2 {
+    font-size: 23px;
+  }
+
+  #program-items {
+    display: grid;
+    gap: 5px;
+    width: 100%;
+    padding: 10px 10%;
+    grid-template-columns: repeat(auto-fit, 180px);
+    justify-content: center;
+  }
+
+  .program-item {
+    grid-template-columns: unset;
+    grid-template-rows: 50px 20px auto;
+    justify-items: center;
+    margin-bottom: 0;
+    padding: 20px 5px;
+    background-color: rgba(211, 211, 211, .1);
+  }
+
+  .program-item > .program-item-name {
+    width: max-content;
+  }
+
+  .program-item > .program-item-description {
+    height: 100%;
+    text-align: center;
+  }
+
+  #join-program-mobile {
+    display: none;
+  }
+
+  #join-program-desktop {
+    display: block;
+    background-color: transparent;
+    text-decoration: underline;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    transition: 1s all;
+  }
+
+  #join-program-desktop:hover {
+    color: var(--primary-color);
+  }
+
+  /* Featured speakers section */
+  #speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    justify-content: center;
+    padding: 10px 10%;
+  }
+
+  #speakers button {
+    display: none;
+  }
+
+  footer {
+    padding: 20px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  }
 }

@@ -13,7 +13,33 @@
 <body>
   <section id="intro-section">
     <header>
-
+      <div id="top-nav">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <a href="#">English</a>
+        <a href="#">My Page</a>
+        <a href="#">Logout</a>
+      </div>
+      <nav id="navbar">
+        <div class="logo">
+          <img alt="et logo" src="images/et_logo.PNG" />
+          <p class="m-0">
+            ET Global
+            <br >
+            Summit 2023
+          </p>
+        </div>
+        <div id="nav-items">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Sponsor</a></li>
+            <li><a href="#">News</a></li>
+          </ul>
+          <button>ET Campaign</button>
+        </div>
+      </nav>
     </header>
     <p id="intro-heading">"Hello! Tech World"</p>
     <h1>
@@ -36,52 +62,54 @@
   <section id="program-outline-section">
     <h2>Main Program</h2>
     <div class="line"></div>
-    <div class="program-item">
-      <i class="fa-solid fa-person-chalkboard"></i>
-      <p class="program-item-name">Lecture</p>
-      <p class="program-item-description">
-        Listen to the speakers from various countries
-        about the messages of sharing and opening.
-      </p>
+    <div id="program-items">
+      <div class="program-item">
+        <!-- <i class="fa-solid fa-person-chalkboard"></i> -->
+        <img alt="program icon 1" src="images/program_icon_01.png"/>
+        <p class="program-item-name">Lecture</p>
+        <p class="program-item-description">
+          Listen to the speakers from various countries
+          about the messages of sharing and opening.
+        </p>
+      </div>
+      <div class="program-item">
+        <img alt="program icon 1" src="images/program_icon_02.png"/>
+        <p class="program-item-name">
+          ET Exhibition
+        </p>
+        <p class="program-item-description">
+          Appreciate various creations applying CC
+          license of artists, organized from Art Center
+          Nabi.
+        </p>
+      </div>
+      <div class="program-item">
+        <img alt="program icon 1" src="images/program_icon_03.png"/>
+        <p class="program-item-name">Forum</p>
+        <p class="program-item-description">
+          Have the time to share your thoughts and opinions
+          with experts foe each topic.
+        </p>
+      </div>
+      <div class="program-item">
+        <img alt="program icon 1" src="images/program_icon_04.png"/>
+        <p class="program-item-name">Workshop</p>
+        <p class="program-item-description">
+          Try creating your own work using open source
+          license rather than just watching.
+        </p>
+      </div>
+      <div class="program-item">
+        <img alt="program icon 1" src="images/program_icon_05.png"/>
+        <p class="program-item-name">ET Ignite</p>
+        <p class="program-item-description">
+          Get opportunities to network with CC affiliates
+          around the world, also after the summit.
+        </p>
+      </div>
     </div>
-    <div class="program-item">
-      <i class="fa-brands fa-wpexplorer"></i>
-      <p class="program-item-name">
-        ET
-        <br>
-        Exhibition
-      </p>
-      <p class="program-item-description">
-        Appreciate various creations applying CC
-        license of artists, organized from Art Center
-        Nabi.
-      </p>
-    </div>
-    <div class="program-item">
-      <i class="fa-brands fa-forumbee"></i>
-      <p class="program-item-name">Forum</p>
-      <p class="program-item-description">
-        Have the time to share your thoughts and opinions
-        with experts foe each topic.
-      </p>
-    </div>
-    <div class="program-item">
-      <i class="fa-solid fa-briefcase"></i>
-      <p class="program-item-name">Workshop</p>
-      <p class="program-item-description">
-        Try creating your own work using open source
-        license rather than just watching.
-      </p>
-    </div>
-    <div class="program-item">
-      <i class="fa-brands fa-connectdevelop"></i>
-      <p class="program-item-name">ET Ignite</p>
-      <p class="program-item-description">
-        Get opportunities to network with CC affiliates
-        around the world, also after the summit.
-      </p>
-    </div>
-    <button>Join ET Global Summit 2023</button>
+    <button id="join-program-mobile">Join ET Global Summit 2023</button>
+    <button id="join-program-desktop">SEE THE WHOLE PROGRAM</button>
   </section>
   <section id="featured-speakers-section">
     <h2>Featured Speakers</h2>
@@ -97,7 +125,7 @@
         </div>
         <div>
           <h3>Elon Musk</h3>
-          <p>Chief Executive Officer at SpaceX and Tesla</p>
+          <p class="speaker-description">Chief Executive Officer at SpaceX and Tesla</p>
           <div class="gray-line"></div>
           <p>Elon Musk is a billionaire entrepreneur and engineer.
             He is the CEO of Tesla, SpaceX, Neuralink and The Boring Company.
@@ -114,7 +142,75 @@
         </div>
         <div>
           <h3>Larry Page</h3>
-          <p>Founder, Google and Alphabet Inc.</p>
+          <p class="speaker-description">Founder, Google and Alphabet Inc.</p>
+          <div class="gray-line"></div>
+          <p>Larry Page is a tech entrepreneur and computer scientist.
+            Co-founded Google, served as CEO, now CEO of Alphabet.
+            Pioneered search engine technology and drives innovation, sustainability.
+          </p>
+        </div>
+      </div>
+      <div class="speaker">
+        <div class="speaker-image-div">
+          <div class="speaker-image">
+            <img alt="" src="images/bw_tile.PNG" class="tile"/>
+            <img alt="" src="images/larry.jpg" class="person" />
+          </div>
+        </div>
+        <div>
+          <h3>Larry Page</h3>
+          <p class="speaker-description">Founder, Google and Alphabet Inc.</p>
+          <div class="gray-line"></div>
+          <p>Larry Page is a tech entrepreneur and computer scientist.
+            Co-founded Google, served as CEO, now CEO of Alphabet.
+            Pioneered search engine technology and drives innovation, sustainability.
+          </p>
+        </div>
+      </div>
+      <div class="speaker">
+        <div class="speaker-image-div">
+          <div class="speaker-image">
+            <img alt="" src="images/bw_tile.PNG" class="tile"/>
+            <img alt="" src="images/larry.jpg" class="person" />
+          </div>
+        </div>
+        <div>
+          <h3>Larry Page</h3>
+          <p class="speaker-description">Founder, Google and Alphabet Inc.</p>
+          <div class="gray-line"></div>
+          <p>Larry Page is a tech entrepreneur and computer scientist.
+            Co-founded Google, served as CEO, now CEO of Alphabet.
+            Pioneered search engine technology and drives innovation, sustainability.
+          </p>
+        </div>
+      </div>
+      <div class="speaker">
+        <div class="speaker-image-div">
+          <div class="speaker-image">
+            <img alt="" src="images/bw_tile.PNG" class="tile"/>
+            <img alt="" src="images/larry.jpg" class="person" />
+          </div>
+        </div>
+        <div>
+          <h3>Larry Page</h3>
+          <p class="speaker-description">Founder, Google and Alphabet Inc.</p>
+          <div class="gray-line"></div>
+          <p>Larry Page is a tech entrepreneur and computer scientist.
+            Co-founded Google, served as CEO, now CEO of Alphabet.
+            Pioneered search engine technology and drives innovation, sustainability.
+          </p>
+        </div>
+      </div>
+      <div class="speaker">
+        <div class="speaker-image-div">
+          <div class="speaker-image">
+            <img alt="" src="images/bw_tile.PNG" class="tile"/>
+            <img alt="" src="images/larry.jpg" class="person" />
+          </div>
+        </div>
+        <div>
+          <h3>Larry Page</h3>
+          <p class="speaker-description">Founder, Google and Alphabet Inc.</p>
           <div class="gray-line"></div>
           <p>Larry Page is a tech entrepreneur and computer scientist.
             Co-founded Google, served as CEO, now CEO of Alphabet.
