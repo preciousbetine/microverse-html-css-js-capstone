@@ -1,0 +1,233 @@
+
+/* Header */
+#top-nav, #navbar {
+  display: none;
+}
+
+#mobile-hamburger {
+  font-size: 40px;
+}
+
+/* Intro section */
+#intro-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-color);
+  background-image: url("../images/header_bg.png");
+  background-position: bottom;
+  color: var(--black-color);
+}
+
+#intro-section #intro-heading {
+  color: var(--primary-color);
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#intro-section h1 {
+  font-weight: 1000;
+  font-size: 30px;
+  line-height: 35px;
+  color: var(--primary-color);
+  text-align: center;
+}
+
+#intro-section #intro-description
+{
+  margin-top: 40px;
+  color: var(--black-color);
+  background-color: white;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid var(--secondary-color);
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: bold;
+}
+
+#intro-contact {
+  padding: 20px;
+  text-align: center;
+}
+
+#intro-contact a {
+  color: var(--black-color);
+  font-weight: bold;
+}
+
+/* Logo Section */
+
+#logo-section {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+#et-logo-div {
+  border: 2px solid var(--secondary-color);
+  width: 100%;
+  padding: 45px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+#et-logo-div img {
+  height: 80px;
+  width: 80px;
+  border: 2px solid var(--black-color);
+  border-radius: 50%;
+}
+
+#et-logo-div .logo-title {
+  font-size: 25px;
+  line-height: 27px;
+  font-weight: bold;
+}
+
+#et-logo-div .logo-competiton-date {
+  font-size: 10px;
+  border-top: 1px solid var(--secondary-color);
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+
+/* Past Summits Section */
+
+#past-summits-section {
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#past-summits-section p {
+  text-align: center;
+}
+
+#past-summit-events {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#past-summit-events .summit-event {
+  height: 200px;
+  background-size: cover;
+}
+
+#past-summit-events .summit-event > div {
+  height: 100%;
+  background-color: rgba(198, 64, 49, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#past-summit-events .summit-event > div > h3 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#past-summit-events .summit-event > div > p {
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+#past-summit-events .summit-event:nth-child(1) {
+  background-image: url("../images/event-1.jpeg");
+}
+#past-summit-events .summit-event:nth-child(2) {
+  background-image: url("../images/event-2.jpeg");
+}
+#past-summit-events .summit-event:nth-child(3) {
+  background-image: url("../images/event-3.jpeg");
+}
+
+
+
+/* Partners Section */
+
+#partners-section {
+  background-color: rgb(90, 89, 89);
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+#partners {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 10px;
+}
+
+.tesla-img {
+  height: 20px;
+}
+
+.google-img {
+  height: 30px;
+}
+
+.meta-img {
+  height: 40px;
+}
+
+.microsoft-img {
+  height: 30px;
+}
+
+.amazon-img {
+  height: 25px;
+}
+
+/* Footer */
+footer {
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+footer > .logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+footer > .logo > img {
+  width: 25px;
+  height: 25px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+footer > .logo > p {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+}
+
+footer > p {
+  font-size: 12px;
+}
+
