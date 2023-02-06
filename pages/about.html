@@ -11,35 +11,40 @@
   <title>Emerging Technologies - About</title>
 </head>
 <body>
-  <section id="intro-section">
-    <header>
-      <div id="top-nav">
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <a href="#">English</a>
-        <a href="#">My Page</a>
-        <a href="#">Logout</a>
-      </div>
-      <nav id="navbar">
-        <div class="logo">
-          <img alt="et logo" src="images/et_logo.PNG" />
+  <header id="desktop-header">
+    <div id="top-nav">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <a href="#">English</a>
+      <a href="#">My Page</a>
+      <a href="#">Logout</a>
+    </div>
+    <nav id="navbar">
+      <div class="logo">
+        <a href="../index.html">
+          <img alt="et logo" src="../images/et_logo.PNG" />
           <p class="m-0">
             ET Global
             <br >
             Summit 2023
           </p>
-        </div>
-        <div id="nav-items">
-          <ul>
-            <li><a href="pages/about.html">About</a></li>
-            <li><a href="#">Program</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Sponsor</a></li>
-            <li><a href="#">News</a></li>
-          </ul>
-          <button>ET Campaign</button>
-        </div>
-      </nav>
+        </a>
+      </div>
+      <div id="nav-items">
+        <ul>
+          <li><a href="">About</a></li>
+          <li><a href="#">Program</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+        <button>ET Campaign</button>
+      </div>
+    </nav>
+    <i class="fa-solid fa-bars" id="mobile-hamburger"></i>
+  </header>
+  <section id="intro-section">
+    <header id="mobile-header">
       <i class="fa-solid fa-bars" id="mobile-hamburger"></i>
     </header>
     <p id="intro-heading">"Hello! Tech World"</p>
@@ -52,10 +57,24 @@
       tech conference is the perfect platform to expand your knowledge, grow your network,
       and unleash your potential in the exciting world of technology.
     </p>
+    <p id="intro-description-desktop">
+      Join us for a one-of-a-kind virtual tech experience, where you will have the opportunity
+      to connect with leading experts and industry pioneers, learn about the latest trends and
+      innovations in the tech world, and be part of a thriving community of like-minded individuals.
+      With a dynamic line-up of keynote speakers, interactive panel discussions, and innovative
+      exhibitions, our online tech conference is the perfect platform to expand your knowledge,
+      grow your network, and unleash your potential in the exciting world of technology. Register
+      today and get ready to be inspired, challenged, and entertained!
+    </p>
     <p id="intro-contact">
       Please contact us via email for any further questions about ET Global Summit 2023!
       <br >
-      <a href="mailto:etsummit2015@etusa.org">etsummit2015@etusa.org</a>
+      <span>
+        <a href="mailto:etsummit2015@etusa.org">
+          etsummit2015@etusa.org
+        </a>
+        <span id="contact-caret-right">></span>
+      </span>
     </p>
   </section>
 
@@ -66,6 +85,14 @@
     <p class="text-center">
       The logo of ET Global Summit 2023 was decided through the logo competition
       from 9. January to 24. January.
+      <br>
+      <span id="extended-logo-competition-description">
+        After online voting and Selection Committee's judging process,
+        the logo from Abigail Trish won the prize.
+        <br>
+        After consultation with Ms. Trish, we optimized the prize-winning-logo
+        for this year's summit as following:
+      </span>
     </p>
     <div id="et-logo-div">
       <img alt="et logo" src="../images/et_logo.PNG" />

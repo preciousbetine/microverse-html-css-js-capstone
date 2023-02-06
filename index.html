@@ -11,35 +11,40 @@
   <title>Emerging Technologies</title>
 </head>
 <body>
-  <section id="intro-section">
-    <header>
-      <div id="top-nav">
-        <i class="fa-brands fa-facebook-f"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <a href="#">English</a>
-        <a href="#">My Page</a>
-        <a href="#">Logout</a>
-      </div>
-      <nav id="navbar">
-        <div class="logo">
-          <img alt="et logo" src="images/et_logo.PNG" />
+  <header id="desktop-header">
+    <div id="top-nav">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <a href="#">English</a>
+      <a href="#">My Page</a>
+      <a href="#">Logout</a>
+    </div>
+    <nav id="navbar">
+      <div class="logo">
+        <a href="./index.html">
+          <img alt="et logo" src="../images/et_logo.PNG" />
           <p class="m-0">
             ET Global
             <br >
             Summit 2023
           </p>
-        </div>
-        <div id="nav-items">
-          <ul>
-            <li><a href="pages/about.html">About</a></li>
-            <li><a href="#">Program</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Sponsor</a></li>
-            <li><a href="#">News</a></li>
-          </ul>
-          <button>ET Campaign</button>
-        </div>
-      </nav>
+        </a>
+      </div>
+      <div id="nav-items">
+        <ul>
+          <li><a href="pages/about.html">About</a></li>
+          <li><a href="#">Program</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+        <button>ET Campaign</button>
+      </div>
+    </nav>
+    <i class="fa-solid fa-bars" id="mobile-hamburger"></i>
+  </header>
+  <section id="intro-section">
+    <header id="mobile-header">
       <i class="fa-solid fa-bars" id="mobile-hamburger"></i>
     </header>
     <p id="intro-heading">"Hello! Tech World"</p>
@@ -65,7 +70,6 @@
     <div class="line"></div>
     <div id="program-items">
       <div class="program-item">
-        <!-- <i class="fa-solid fa-person-chalkboard"></i> -->
         <img alt="program icon 1" src="images/program_icon_01.png"/>
         <p class="program-item-name">Lecture</p>
         <p class="program-item-description">
