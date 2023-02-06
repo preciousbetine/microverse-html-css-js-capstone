@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="images/et_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="images/et_logo.PNG" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>Microverse HTML, CSS and Javascript Capstone Project</b></h3>
