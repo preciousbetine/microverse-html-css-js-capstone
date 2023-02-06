@@ -10,6 +10,27 @@ const speakers = [
                   space travel, and energy.`,
   },
   {
+    name: 'Anne Wojcicki',
+    image: 'images/anne.jpg',
+    description: 'Co-founder and CEO, 23andMe',
+    information: `Anne Wojcicki is an American entrepreneur and the co-founder and CEO of 23andMe,
+                  a personal genomics and biotechnology company. She is known for her innovative
+                  approach to personal health and wellness through genetic testing and analysis.
+                  She is also known for her philanthropic efforts, including investments in
+                  education and public health initiatives.`,
+  },
+  {
+    name: 'Melanie Perkins',
+    image: 'images/melanie.webp',
+    description: 'Co-founder and CEO, Canva',
+    information: `Melanie Perkins is an Australian entrepreneur and the co-founder and
+                  CEO of Canva, a graphic design platform. She co-founded the company
+                  in 2013 and has overseen its rapid growth into a publicly traded company
+                  valued at over $15 billion. Perkins is known for her leadership in the
+                  technology and design industries and her passion for making design
+                  accessible and affordable for everyone.`,
+  },
+  {
     name: 'Mark Zuckerberg',
     image: 'images/mark.jpg',
     description: 'Chief Executive Officer, Meta Technologies',
@@ -34,27 +55,6 @@ const speakers = [
     information: `Larry Page is a tech entrepreneur and computer scientist.
                   Co-founded Google, served as CEO, now CEO of Alphabet.
                   Pioneered search engine technology and drives innovation, sustainability.`,
-  },
-  {
-    name: 'Anne Wojcicki',
-    image: 'images/anne.jpg',
-    description: 'Co-founder and CEO, 23andMe',
-    information: `Anne Wojcicki is an American entrepreneur and the co-founder and CEO of 23andMe,
-                  a personal genomics and biotechnology company. She is known for her innovative
-                  approach to personal health and wellness through genetic testing and analysis.
-                  She is also known for her philanthropic efforts, including investments in
-                  education and public health initiatives.`,
-  },
-  {
-    name: 'Melanie Perkins',
-    image: 'images/melanie.webp',
-    description: 'Co-founder and CEO, Canva',
-    information: `Melanie Perkins is an Australian entrepreneur and the co-founder and
-                  CEO of Canva, a graphic design platform. She co-founded the company
-                  in 2013 and has overseen its rapid growth into a publicly traded company
-                  valued at over $15 billion. Perkins is known for her leadership in the
-                  technology and design industries and her passion for making design
-                  accessible and affordable for everyone.`,
   },
 ];
 
