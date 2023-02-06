@@ -32,3 +32,86 @@ section, footer, header {
 .blur-image {
   filter: brightness(70%);
 }
+
+
+
+/* Navbar and mobile menu */
+
+#mobile-navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#mobile-navbar > .logo > a > img {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+}
+
+#mobile-navbar > .logo > a {
+  display: flex;
+  text-decoration: none;
+  gap: 10px;
+  color: white;
+}
+
+#mobile-navbar > #nav-items > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+}
+
+#mobile-navbar > #nav-items > ul > li {
+  border-left: 10px solid rgb(82, 82, 82);
+}
+
+#mobile-navbar > #nav-items > ul > li:hover,
+#mobile-navbar > #nav-items > ul > li:hover a,
+#mobile-navbar > #nav-items > ul > li:focus,
+#mobile-navbar > #nav-items > ul > li:focus a
+{
+  color: var(--primary-color);
+  border-left-color: var(--primary-color);
+}
+
+#mobile-navbar > #nav-items > ul > li > a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  display: block;
+  padding: 20px;
+}
+
+#mobile-menu {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(4px);
+  display: none;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 20px;
+  font-family: "lato", sans-serif;
+}
+
+#mobile-menu > i {
+  font-size: 25px;
+  align-self: flex-end;
+  transition: .3s all;
+}
+
+#mobile-menu > i:hover,
+#mobile-menu > i:focus
+{
+  transform: scale(1.2);
+  color: var(--primary-color);
+}
+
