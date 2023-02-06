@@ -4,6 +4,10 @@
   display: none;
 }
 
+#mobile-hamburger {
+  font-size: 40px;
+}
+
 /* Intro section */
 #intro-section {
   padding: 20px;
@@ -258,6 +262,10 @@ footer > p {
 
 @media (min-width: 768px) {
   /* Navbar */
+  #mobile-hamburger {
+    display: none;
+  }
+
   #top-nav {
     padding: 5px 10%;
     display: flex;
