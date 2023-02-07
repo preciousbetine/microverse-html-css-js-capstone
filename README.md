@@ -82,8 +82,8 @@
 
 <!-- > Add a link to your deployed project. -->
 
-<!-- - [Live Demo Link](https://yourdeployedapplicationlink.com) -->
-- No Live Demo yet
+- [Live Demo Link](https://preciousbetine.github.io/microverse-html-css-js-capstone)
+<!-- - No Live Demo yet -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,8 +185,10 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 <!-- > Describe 1 - 3 features you will add to the project. -->
-None for now 🙂
-<!-- - [ ] **Responsive desktop version** -->
+<!-- None for now 🙂 -->
+- [ ] **More pages**
+- [ ] **Social media links**
+<!-- - [ ] **More pages** -->
 <!-- - [ ] **[new_feature_3]** -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -217,8 +219,7 @@ If you like this project, give it a ⭐
 
 <!-- > Give credit to everyone who inspired your codebase. -->
 
-No acknowledgements. 🙂
-<!-- I would like to thank... -->
+I would like to thank [Cindy Shin on Behance](https://www.behance.net/adagio07) for the design I used for the site.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
