@@ -1,0 +1,32 @@
+{
+  "name": "microverse-html-css-js-capstone",
+  "version": "1.0.0",
+  "description": "<a name=\"readme-top\"></a>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/preciousbetine/microverse-html-css-js-capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/preciousbetine/microverse-html-css-js-capstone/issues"
+  },
+  "homepage": "https://github.com/preciousbetine/microverse-html-css-js-capstone#readme",
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.33.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "hint": "^7.1.3",
+    "stylelint": "^14.16.1",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-csstree-validator": "^2.1.0",
+    "stylelint-scss": "^4.3.0"
+  }
+}

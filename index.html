@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/et_logo.PNG">
+  <link rel="stylesheet"  href="css/general.css">
+  <link rel="stylesheet"  href="css/homepage.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="text/javascript" src="js/mobile-menu.js" defer></script>
+  <script type="text/javascript" src="js/featured-speakers.js" defer></script>
+  <title>Emerging Technologies</title>
+</head>
+<body>
+  <header id="desktop-header">
+    <div id="top-nav">
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <a href="#">English</a>
+      <a href="#">My Page</a>
+      <a href="#">Logout</a>
+    </div>
+    <nav id="navbar">
+      <div class="logo">
+        <a href="./index.html">
+          <img alt="et logo" src="images/et_logo.PNG" />
+          <p class="m-0">
+            ET Global
+            <br >
+            Summit 2023
+          </p>
+        </a>
+      </div>
+      <div id="nav-items">
+        <ul>
+          <li><a href="pages/about.html">About</a></li>
+          <li><a href="#">Program</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Sponsor</a></li>
+          <li><a href="#">News</a></li>
+        </ul>
+        <button>ET Campaign</button>
+      </div>
+    </nav>
+    <i class="fa-solid fa-bars" id="mobile-hamburger"></i>
+  </header>
+
+  <section id="intro-section">
+    <header id="mobile-header">
+      <button id="show-nav-button">
+        <i class="fa-solid fa-bars" id="mobile-hamburger"></i>
+      </button>
+      <div id="mobile-menu">
+        <button id="close-menu-btn">
+          <i class="fa fa-x"></i>
+        </button>
+        <nav id="mobile-navbar">
+          <div class="logo">
+            <a href="./index.html">
+              <img alt="et logo" src="images/et_logo.PNG" />
+            </a>
+          </div>
+          <div id="nav-items">
+            <ul>
+              <li><a href="pages/about.html">About</a></li>
+              <li><a href="#">Program</a></li>
+              <li><a href="#">Join</a></li>
+              <li><a href="#">Sponsor</a></li>
+              <li><a href="#">News</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <p id="intro-heading">"Hello! Tech World"</p>
+    <h1>
+      ET GLOBAL SUMMIT
+      <br>
+      2023
+    </h1>
+    <p id="intro-description">
+      Join us for the premier event exploring the latest in emerging
+      technologies. Hear from experts in AI, IoT, blockchain, and more.
+      Network with innovators and gain a competitive edge in a rapidly
+      changing tech landscape.
+    </p>
+    <p id="event-date">
+      2023.03.01(WED) ~ 03(FRI)
+    </h2>
+    <p id="event-location">@ Moscone Center, San Francisco, CA</p>
+  </section>
+
+  <section id="program-outline-section">
+    <h2>Main Program</h2>
+    <div class="line"></div>
+    <div id="program-items">
+      <article class="program-item">
+        <img alt="program icon 1" src="images/program_icon_01.png"/>
+        <p class="program-item-name">Lecture</p>
+        <p class="program-item-description">
+          Listen to the speakers from various countries
+          about the messages of sharing and opening.
+        </p>
+      </article>
+      <article class="program-item">
+        <img alt="program icon 2" src="images/program_icon_02.png"/>
+        <p class="program-item-name">
+          ET Exhibition
+        </p>
+        <p class="program-item-description">
+          Appreciate various creations applying CC
+          license of artists, organized from Art Center
+          Nabi.
+        </p>
+      </article>
+      <article class="program-item">
+        <img alt="program icon 3" src="images/program_icon_03.png"/>
+        <p class="program-item-name">Forum</p>
+        <p class="program-item-description">
+          Have the time to share your thoughts and opinions
+          with experts foe each topic.
+        </p>
+      </article>
+      <article class="program-item">
+        <img alt="program icon 4" src="images/program_icon_04.png"/>
+        <p class="program-item-name">Workshop</p>
+        <p class="program-item-description">
+          Try creating your own work using open source
+          license rather than just watching.
+        </p>
+      </article>
+      <article class="program-item">
+        <img alt="program icon 5" src="images/program_icon_05.png"/>
+        <p class="program-item-name">ET Ignite</p>
+        <p class="program-item-description">
+          Get opportunities to network with CC affiliates
+          around the world, also after the summit.
+        </p>
+      </article>
+    </div>
+    <button id="join-program-mobile">Join ET Global Summit 2023</button>
+    <button id="join-program-desktop">SEE THE WHOLE PROGRAM</button>
+  </section>
+
+  <section id="featured-speakers-section">
+    <h2>Featured Speakers</h2>
+    <div class="line"></div>
+
+    <div id="speakers"></div>
+  </section>
+
+  <section id="partners-section">
+    <h2>Partners</h2>
+    <div class="line"></div>
+    <div id="partners">
+      <img alt="Tesla" class="tesla-img" src="images/tesla.png" />
+      <img alt="Google" class="google-img" src="images/google.png" />
+      <img alt="Meta" class="meta-img blur-image" src="images/meta.png" />
+      <img alt="Microsoft" class="microsoft-img blur-image" src="images/microsoft.png" />
+      <img alt="Amazon" class="amazon-img blur-image" src="images/amazon.png" />
+    </div>
+  </section>
+
+  <footer>
+    <div class="logo">
+      <img alt="et logo" src="images/et_logo.PNG" />
+      <p class="m-0">
+        emerging
+        <br >
+        technologies&nbsp;u.s.a.
+      </p>
+    </div>
+    <p class="m-0">
+      2023 Emerging Technologies USA.
+      <br >
+      Some Rights Reserved.
+    </p>
+  </footer>
+</body>
+</html>

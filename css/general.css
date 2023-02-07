@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+body {
+  --black-color: #272a31;
+  --primary-color: #ec5242;
+  --secondary-color: #d3d3d3;
+}
+
+header {
+  height: 100px;
+}
+
+section,
+footer,
+header {
+  font-family: Lato, sans-serif;
+}
+
+.line {
+  height: 2px;
+  width: 50px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  background-color: var(--primary-color);
+}
+
+.gray-line {
+  height: 2px;
+  width: 30px;
+  margin: 20px 0;
+  background-color: var(--secondary-color);
+}
+
+.blur-image {
+  filter: brightness(70%);
+}
+
+/* Navbar and mobile menu */
+
+#mobile-header > #show-nav-button {
+  background: none;
+  border: none;
+  outline: none;
+}
+
+#mobile-navbar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#mobile-navbar > .logo > a > img {
+  height: 50px;
+  width: 50px;
+  border: 2px solid black;
+}
+
+#mobile-navbar > .logo > a {
+  display: flex;
+  text-decoration: none;
+  gap: 10px;
+  color: white;
+}
+
+#mobile-navbar > #nav-items > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 20px;
+  padding: 0;
+}
+
+#mobile-navbar > #nav-items > ul > li {
+  border-left: 10px solid rgb(82 82 82);
+}
+
+#mobile-navbar > #nav-items > ul > li > a {
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  display: block;
+  padding: 20px;
+}
+
+#mobile-navbar > #nav-items > ul > li:hover,
+#mobile-navbar > #nav-items > ul > li:hover a,
+#mobile-navbar > #nav-items > ul > li:focus,
+#mobile-navbar > #nav-items > ul > li:focus a {
+  color: var(--primary-color);
+  border-left-color: var(--primary-color);
+}
+
+#mobile-menu {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background-color: rgb(255 255 255 / 70%);
+  backdrop-filter: blur(4px);
+  display: none;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px 20px;
+  font-family: lato, sans-serif;
+}
+
+#mobile-menu > button {
+  font-size: 25px;
+  align-self: flex-end;
+  transition: 0.3s all;
+  border: none;
+  background: none;
+}
+
+#mobile-menu > button:hover,
+#mobile-menu > button:focus {
+  transform: scale(1.2);
+  color: var(--primary-color);
+}
