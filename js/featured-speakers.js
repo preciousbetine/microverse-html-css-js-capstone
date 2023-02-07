@@ -1,4 +1,3 @@
-
 const speakers = [
   {
     name: 'Elon Musk',
@@ -89,7 +88,7 @@ speakersDivContent += `
 speakersDiv.innerHTML = speakersDivContent;
 
 const showAllSpeakers = document.querySelector('#showAllSpeakers');
-showAllSpeakers.addEventListener('click' , () => {
+showAllSpeakers.addEventListener('click', () => {
   const remainingSpeakers = document.querySelectorAll('#speakers .speaker:nth-child(n+2)');
   remainingSpeakers.forEach((speaker) => {
     speaker.style.display = 'grid';

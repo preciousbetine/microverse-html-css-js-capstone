@@ -1,5 +1,3 @@
-
-
 const menuBtn = document.querySelector('#show-nav-button');
 const mobileMenu = document.querySelector('#mobile-menu');
 
@@ -11,4 +9,4 @@ menuBtn.addEventListener('click', () => {
       mobileMenu.style.display = '';
     }, 300);
   });
-})
+});

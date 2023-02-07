@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 body {
   --black-color: #272a31;
@@ -10,8 +10,10 @@ header {
   height: 100px;
 }
 
-section, footer, header {
-  font-family: "Lato", sans-serif;
+section,
+footer,
+header {
+  font-family: Lato, sans-serif;
 }
 
 .line {
@@ -32,8 +34,6 @@ section, footer, header {
 .blur-image {
   filter: brightness(70%);
 }
-
-
 
 /* Navbar and mobile menu */
 
@@ -71,16 +71,7 @@ section, footer, header {
 }
 
 #mobile-navbar > #nav-items > ul > li {
-  border-left: 10px solid rgb(82, 82, 82);
-}
-
-#mobile-navbar > #nav-items > ul > li:hover,
-#mobile-navbar > #nav-items > ul > li:hover a,
-#mobile-navbar > #nav-items > ul > li:focus,
-#mobile-navbar > #nav-items > ul > li:focus a
-{
-  color: var(--primary-color);
-  border-left-color: var(--primary-color);
+  border-left: 10px solid rgb(82 82 82);
 }
 
 #mobile-navbar > #nav-items > ul > li > a {
@@ -92,6 +83,14 @@ section, footer, header {
   padding: 20px;
 }
 
+#mobile-navbar > #nav-items > ul > li:hover,
+#mobile-navbar > #nav-items > ul > li:hover a,
+#mobile-navbar > #nav-items > ul > li:focus,
+#mobile-navbar > #nav-items > ul > li:focus a {
+  color: var(--primary-color);
+  border-left-color: var(--primary-color);
+}
+
 #mobile-menu {
   height: 100vh;
   width: 100vw;
@@ -99,27 +98,25 @@ section, footer, header {
   top: 0;
   left: 0;
   z-index: 1000;
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgb(255 255 255 / 70%);
   backdrop-filter: blur(4px);
   display: none;
   flex-direction: column;
   gap: 30px;
   padding: 50px 20px;
-  font-family: "lato", sans-serif;
+  font-family: lato, sans-serif;
 }
 
 #mobile-menu > button {
   font-size: 25px;
   align-self: flex-end;
-  transition: .3s all;
+  transition: 0.3s all;
   border: none;
   background: none;
 }
 
 #mobile-menu > button:hover,
-#mobile-menu > button:focus
-{
+#mobile-menu > button:focus {
   transform: scale(1.2);
   color: var(--primary-color);
 }
-
